@@ -1,0 +1,50 @@
+
+public class MemoryRep {
+
+	public static void main(String[] args) {
+		        char c = 'A';
+		        short s = 100;
+		        int i = 1000;
+		        long l = 100000L;
+		        float f = 3.14f;
+		        double d = 3.14159;
+		        boolean b = true;
+
+		      
+		        System.out.println("Data Type: char");
+		        System.out.println("Size: 2 bytes");
+		        System.out.println("Minimum Value: " + (int) Character.MIN_VALUE);
+		        System.out.println("Maximum Value: " + (int) Character.MAX_VALUE + "\n");
+
+		        System.out.println("Data Type: short");
+		        System.out.println("Size: 2 bytes");
+		        System.out.println("Minimum Value: " + Short.MIN_VALUE);
+		        System.out.println("Maximum Value: " + Short.MAX_VALUE + "\n");
+
+		        System.out.println("Data Type: int");
+		        System.out.println("Size: 4 bytes");
+		        System.out.println("Minimum Value: " + Integer.MIN_VALUE);
+		        System.out.println("Maximum Value: " + Integer.MAX_VALUE + "\n");
+
+		        System.out.println("Data Type: long");
+		        System.out.println("Size: 8 bytes");
+		        System.out.println("Minimum Value: " + Long.MIN_VALUE);
+		        System.out.println("Maximum Value: " + Long.MAX_VALUE + "\n");
+
+		        System.out.println("Data Type: float");
+		        System.out.println("Size: 4 bytes");
+		        System.out.println("Minimum Value: " + Float.MIN_VALUE);
+		        System.out.println("Maximum Value: " + Float.MAX_VALUE + "\n");
+
+		        System.out.println("Data Type: double");
+		        System.out.println("Size: 8 bytes");
+		        System.out.println("Minimum Value: " + Double.MIN_VALUE);
+		        System.out.println("Maximum Value: " + Double.MAX_VALUE + "\n");
+
+		        System.out.println("Data Type: boolean");
+		        System.out.println("Size: JVM dependent (typically 1 byte)");
+		        System.out.println("Possible Values: true, false");
+		    }
+
+	}
+

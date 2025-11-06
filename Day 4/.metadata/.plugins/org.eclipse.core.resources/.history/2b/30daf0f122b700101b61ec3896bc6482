@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class AtmApplication {
+
+	public static void main(String[] args) {
+	Scanner sc =new Scanner(System.in);
+	double balance = 1000.0;
+	while(true) {
+		System.out.println("1. Check Balance\r\n"
+				+ "2. Deposit\r\n"
+				+ "3. Withdraw\r\n"
+				+ "4. Exit");
+	}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

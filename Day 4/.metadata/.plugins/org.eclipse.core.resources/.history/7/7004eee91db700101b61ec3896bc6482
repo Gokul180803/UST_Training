@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class StudentPerformanceAnalyzer {
+   public char calculateFinalGrade(int score, int attendancePercentage) {
+		if(score>=0&& score<=100 && attendancePercentage>=0&&attendancePercentage<=100) {
+			if(score>=90) {
+				return 'A';
+			}else if(score>=80){
+				return 'B';
+			}else if(score>=70){
+				return 'C';
+			}else if(score>=60){
+				return 'D';
+			}else {
+				return 'F';
+			}
+		}else {
+			return 'X';
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		StudentPerformanceAnalyzer c=new StudentPerformanceAnalyzer();
+		Scanner sc =new Scanner(System.in);
+		System.out.print("Enter your Score : ");
+		int a =sc.nextInt();
+		System.out.print("Enter your attendancePercentage : ");
+		int b =sc.nextInt();
+System.out.println(c.calculateFinalGrade(a,b));
+	}
+
+}

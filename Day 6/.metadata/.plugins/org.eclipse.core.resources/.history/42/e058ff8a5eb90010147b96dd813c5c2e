@@ -1,0 +1,40 @@
+
+class MyObject{
+	int value;
+}
+public class PassbyValue {
+		public static void changePrimitive(int parameter) {
+			parameter=50;
+			System.out.println(parameter);
+		}
+		public static void changeObject(MyObject objParameter ) {
+			objParameter.value=100;
+		    System.out.println("Inside changeObject: objParameter.value = " + objParameter.value);
+		}
+		public static void reassignObject(MyObject objParameter ) {
+			objParameter=new MyObject();
+			objParameter.value=500;
+		    System.out.println("Inside reassignObject: objParameter.value = " + objParameter.value);
+		}
+
+	public static void main(String[] args) {
+		int number = 10;
+		
+		MyObject obj = new MyObject();
+		  obj.value=20;
+		 System.out.println("Before changePrimitive: number = " + number);
+	       changePrimitive(number);
+	        System.out.println("After changePrimitive: number = " + number);
+
+	        System.out.println("\nBefore changeObject: obj.value = " + obj.value);
+	        changeObject(obj);
+	        System.out.println("After changeObject: obj.value = " + obj.value);
+
+	        System.out.println("\nBefore reassignObject: obj.value = " + obj.value);
+	        reassignObject(obj);
+	        System.out.println("After reassignObject: obj.value = " + obj.value);
+	   
+	}
+	
+
+}

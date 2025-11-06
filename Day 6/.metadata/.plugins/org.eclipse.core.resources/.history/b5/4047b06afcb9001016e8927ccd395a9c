@@ -1,0 +1,52 @@
+class Car{
+	String model;
+	int year;
+	double fuelLevel=50.0;
+	static int totalCarsCreated;
+	Car(String model, int year){
+		this.model=model;
+		this.year=year;
+		totalCarsCreated++;
+	}
+		public void startEngine() {
+	        System.out.println(model + " engine started.");
+	    }
+		public void drive(double distance) {
+			fuelLevel -= distance * 0.1;
+			if(fuelLevel>0) {
+	        System.out.println(fuelLevel);
+			}else {
+				System.out.println("Out of fuel!");
+				fuelLevel=0;
+			}
+	    }
+		public void refuel(double amount) {
+			double newFuel=fuelLevel+amount;
+			System.out.println(newFuel);
+			
+		}
+		public static int getTotalCars() {
+			return totalCarsCreated;
+		}
+		public static String getCarManufacturerInfo() {
+			return  "All cars are manufactured for transportation purposes.";
+		}
+	}
+public class StaticMethod {
+
+	public static void main(String[] args) {
+		   Car car1 = new Car("Toyota Camry", 15);
+	        Car car2 = new Car("Honda Civic", 10);
+
+	        car1.startEngine();
+	        car1.drive(50);
+	        car1.refuel(5);
+	        car2.startEngine();
+	        car2.drive(500);
+	        car2.refuel(8);
+	        System.out.println("Total cars created: " + Car.getTotalCars());
+	        System.out.println(Car.getCarManufacturerInfo());
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+
+public class ScoreAnalyzer {
+
+	public static void main(String[] args) {
+		int[] studentScores = {85, 72, 90, 65, 50, 95, 78, 88, 60, 100};
+		int maxScore=Integer.MIN_VALUE;
+		int minScore=Integer.MAX_VALUE;
+		int totalScore=0;
+		int countPassing=0;
+		System.out.println("All Student Scores:");
+		for(int Scores:studentScores ) {
+			if(Scores>=60) {           //count the passing student count
+				countPassing++;
+			}
+			totalScore+=Scores;
+			if(maxScore<Scores) {    //Finding Max Score
+				maxScore=Scores;
+			}
+			if(minScore>Scores) {       //Finding Min Score
+				minScore=Scores;
+			}
+			System.out.println(Scores);    // print the all Scores
+		}
+		System.out.println("Highest Score: "+maxScore);
+		System.out.println("Lowest Score: "+minScore);
+		System.out.println("Average Score: "+((double)totalScore/studentScores.length)); //finding average of the marks
+		System.out.println("Number of Passing Students: "+countPassing);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class LoopExploration {
+
+	public static void main(String[] args) {
+	for(int i=10;i>0;i--) {
+		System.out.println(i);
+	}
+	System.out.println("Blast Off!");
+
+	       int a=1;
+      while(a%2==0&&a<=20) {
+    	  System.out.println(a);
+    	  a++;
+      }
+}
+}

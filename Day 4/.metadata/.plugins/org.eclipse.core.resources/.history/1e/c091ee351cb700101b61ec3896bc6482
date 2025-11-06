@@ -1,0 +1,14 @@
+
+public class StudentPerformanceAnalyzer {
+   public char calculateFinalGrade(int score, int attendancePercentage) {
+		return 'A';
+	}
+
+	public static void main(String[] args) {
+		
+		StudentPerformanceAnalyzer c=new StudentPerformanceAnalyzer();
+		c.calculateFinalGrade(1,1);
+		
+	}
+
+}

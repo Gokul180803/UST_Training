@@ -1,0 +1,39 @@
+
+public class RecursiveMethods {
+	public static long factorial(int n) {
+		 if (n < 0) {
+	            throw new IllegalArgumentException("Factorial is undefined for negative numbers: " + n);
+	        }
+		if(n==0||n==1) {
+			return 1;
+		}else {
+		return	n*factorial(n-1);
+		}
+	}
+	public static long fibonacci(int n1) {
+		 if (n1 < 0) {
+	            throw new IllegalArgumentException("Fibonnacci is undefined for negative numbers: " + n1);
+	        }
+		if(n1==0) {
+			return 0;
+		}else if(n1==1) {
+			return 1;
+		}else {
+			return fibonacci(n1-1)+fibonacci(n1-2);
+		}
+	}
+public static void main(String[]args) {
+	try {
+		int n=-3;
+	System.out.println(factorial(n));
+   } catch (IllegalArgumentException e) {
+       System.out.println("Error: " + e.getMessage());
+   }
+	try {
+		int a=10;
+		System.out.println(fibonacci(a));
+	} catch (IllegalArgumentException e) {
+	       System.out.println("Error: " + e.getMessage());
+	   }
+}
+}

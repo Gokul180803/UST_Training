@@ -1,0 +1,23 @@
+package LocalScope;
+class gokul{
+	static int a=0;
+public gokul(){
+	a++;
+	System.out.println(a);
+
+}
+}
+
+public class LocalScope {
+
+	public static void main(String[] args) {
+
+ gokul g=new gokul();
+ gokul g=new gokul();
+
+ gokul g=new gokul();
+
+  
+	}
+
+}

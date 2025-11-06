@@ -1,0 +1,20 @@
+
+public class ArrayTraversal {
+
+	public static void main(String[] args) {
+		int[] studentScores = {85, 72, 90, 65, 50, 95, 78, 88, 60, 100};
+		int MaxScore=Integer.MIN_VALUE;
+		int TotalScore=0;
+		for(int Scores:studentScores ) {
+			TotalScore+=Scores;
+			if(MaxScore<Scores) {
+				MaxScore=Scores;
+			}
+			System.out.println(Scores);
+		}
+		System.out.println(MaxScore);
+		System.out.println(TotalScore);
+		
+	}
+
+}

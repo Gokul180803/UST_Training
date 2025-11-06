@@ -1,0 +1,34 @@
+
+public class ScoreAnalysis3 {
+
+	public static void main(String[] args) {
+		int matchScores[]= {65, 42, 10, 88, 30, 5};
+		int seasonMatchScores[][]= {{180}, {165}, {205}, {190}};
+		int sum=0;
+		for(int Total:matchScores) {
+			sum+=Total;
+			
+		}
+		int greater=matchScores[0];
+		for(int i=1;i<matchScores.length;i++) {
+			if(matchScores[i]>greater) {
+				greater =matchScores[i];
+			}
+		}
+		int Total=0;
+		for (int i=0;i<seasonMatchScores.length;i++) {
+			Total+=seasonMatchScores[i][0];
+		}
+		double avg=(double)Total/seasonMatchScores.length;
+		
+		System.out.println( "--- Single Match Analysis ---");
+		
+		System.out.println("Total runs in the match: "+sum);
+		System.out.println("Highest individual score: "+greater+"\r\n");
+		System.out.println("--- Season Performance Analysis ---"+ "");
+		System.out.println("Average score over 4 matches : "+avg);
+	    System.out.println("Total runs across 4 matches: "+Total);
+		
+	}
+
+}

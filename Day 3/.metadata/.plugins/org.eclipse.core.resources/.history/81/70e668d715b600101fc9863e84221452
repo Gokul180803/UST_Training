@@ -1,0 +1,55 @@
+
+public class OperatorPlayground {
+
+	public static void main(String[] args) {
+		System.out.println("--- Arithmetic Operators ---\r\n"+ "");
+		int num1=20;
+		int num2=7;
+		System.out.println("num1 + num2 = "+(num1+num2));
+		System.out.println("num1 - num2 = "+(num1-num2));
+		System.out.println("num1 * num2 = "+(num1*num2));
+		System.out.println("num1 / num2 = "+(num1/num2));
+		System.out.println("num1 % num2 = "+(num1%num2));
+		
+		
+		System.out.println(" --- Assignment Operators ---\r\n"+"");
+		int x=15;
+		System.out.println(x+=5);
+		System.out.println(x-=5);
+		System.out.println(x*=5);
+		System.out.println(x/=5);
+		System.out.println(x%=5);
+		
+		
+		System.out.println(" --- Relational  Operators ---\r\n"+"");
+		int val1=10;
+		int val2=20;
+		System.out.println("equality : "+(val1==val2));
+		System.out.println("inequality : "+(val1!=val2));
+		System.out.println("Greater than : "+(val1>val2));
+		System.out.println("Less than : "+(val1<val2));
+		System.out.println("Greater than or equal : "+(val1>=val2));
+		System.out.println("less than or equal : "+(val1<=val2));
+
+		System.out.println(" --- Logical   Operators ---\r\n"+"");
+		boolean condition1 = true;
+		boolean condition2 = false;
+		System.out.println(" logical AND : "+(condition1&&condition2));
+		System.out.println(" logical OR : "+(condition1||condition2));
+		System.out.println(" logical NOT : "+(!condition1));
+		
+		System.out.println(" --- Unary    Operators ---\r\n"+"");
+		int counter = 5;
+		System.out.println(" prefix increment : "+(++counter));
+		System.out.println("After prefix increment :"+(counter));
+		System.out.println(" postfix increment : "+(counter++));
+		System.out.println("After postfix increment :"+(counter));
+		System.out.println(" prefix decrement  : "+(--counter));
+		System.out.println("After prefix decrement :"+(counter));
+		System.out.println(" postfix decrement : "+(counter--));
+		System.out.println("After postfix decrement :"+(counter));
+
+		
+	}
+
+}

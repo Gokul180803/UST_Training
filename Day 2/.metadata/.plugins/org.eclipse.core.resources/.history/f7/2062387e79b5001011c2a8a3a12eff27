@@ -1,0 +1,14 @@
+package LocalScope;
+
+
+public class LocalScope {
+
+	public static void main(String[] args) {
+
+  static int a=0;
+  a++;
+  System.out.println(a);
+
+	}
+
+}

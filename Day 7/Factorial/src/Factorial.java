@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Factorial {
+	public static int fac(int num) {
+		if(num<0) {
+			return -1;
+		}
+		if(num==0||num==1) {
+			return 1;
+		}else {
+		return	num*fac(num-1);
+		}
+	}
+	public static String str(int num1) {
+		String s="";
+		for(int i=num1;i>0;i--) {
+			if(i==1) {
+				s=s+String.valueOf(i);
+			}else {
+			s=s+String.valueOf(i)+" * ";
+			}
+		}
+		return s;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		int a=sc.nextInt();
+		if(a>=0) {
+		if (a == 0 || a == 1) {
+		    System.out.println("Factorial of " + a + " (" + a + "!) is 1");
+		} else {
+		    System.out.println("Factorial of " + a + " (" + a + "!) is " + str(a) + " = " + fac(a));
+		}
+		}else {
+			System.out.println("Invalid Number");
+		}
+
+	}
+
+}

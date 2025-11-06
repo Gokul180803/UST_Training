@@ -1,0 +1,20 @@
+class Item{
+	int itemId;
+    double itemPrice;
+	boolean isAvailable;
+	String itemName;
+	char categoryCode;
+}
+public class DefaultValue {
+
+	public static void main(String[] args) {
+		Item myItem=new Item();
+		System.out.println("Default value for itemId : "+myItem.itemId);
+		System.out.println("Default value for itemPrice : "+myItem.itemPrice);
+		System.out.println("Default value for isAvailable : "+myItem.isAvailable);
+		System.out.println("Default value for itemName : "+myItem.itemName);
+		System.out.println("Default value for categoryCode : "+myItem.categoryCode);
+
+	}
+
+}

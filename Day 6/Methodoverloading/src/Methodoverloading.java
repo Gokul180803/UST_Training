@@ -1,0 +1,27 @@
+class Printer{
+	public static void print(int value) {
+		System.out.println("Printing int: "+value);
+	}
+	public static void print(double value) {
+		System.out.println("Printing double: "+value);
+	}
+	public static void print(String value) {
+		System.out.println("Printing String: "+value);
+}
+	public static void print(boolean value) {
+		System.out.println("Printing boolean: "+value);
+}
+}
+public class Methodoverloading {
+
+	public static void main(String[] args) {
+		
+		Printer.print(1);
+		Printer.print(134567.654);
+		Printer.print("gokul");
+		Printer.print(true);
+		
+
+	}
+
+}

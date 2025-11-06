@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\Users\Administrator\Desktop\UST Training\Day 6\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2550001423.index
+3634976873.index
+1639125199.index
+3791984455.index
+3311307523.index
+3530795062.index
+1228689050.index

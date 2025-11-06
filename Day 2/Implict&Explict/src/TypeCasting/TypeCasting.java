@@ -1,0 +1,30 @@
+package TypeCasting;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		
+		        
+		        int totalItems = 25;
+		        double itemPrice = 3.99;
+		        int unitsSoldToday = 18;
+                 double potentialRevenue = totalItems * itemPrice;
+		        double actualRevenue = unitsSoldToday * itemPrice;
+
+		        double averageRevenuePerUnit = actualRevenue / unitsSoldToday;
+
+		     
+		        int actualRevenueWholeDollars = (int) actualRevenue;
+
+		       
+		        int integerAveragePrice = ((int) actualRevenue) / unitsSoldToday;
+
+		         System.out.println("Potential Revenue (double): " + potentialRevenue);
+		        System.out.println("Actual Revenue (double): " + actualRevenue);
+		        System.out.println("Actual Revenue Whole Dollars (int): " + actualRevenueWholeDollars);
+		        System.out.println("Average Revenue Per Unit (double): " + averageRevenuePerUnit);
+		        System.out.println("Integer Average Price (int): " + integerAveragePrice);
+		    }
+
+	}
+

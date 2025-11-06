@@ -1,0 +1,49 @@
+class Product{
+	private String name;
+	private double price;
+	private String productId;
+	public Product(String name, double price, String productId) {
+		this.name=name;
+		this.price=price;
+		this.productId=productId;
+	}
+	public String getName() {
+		return name;
+	}
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double newPrice) {
+        if (newPrice < 0) {
+            throw new IllegalArgumentException("Price cannot be negative.");
+        }
+        this.price = newPrice;
+    }
+	public String getProductId() {
+		return productId;
+	}
+	public double calculateDiscount(double percentage) {
+        if (percentage < 0 || percentage > 100) {
+            throw new IllegalArgumentException("Discount percentage must be between 0 and 100.");
+        }
+        return price - (price * percentage / 100);
+    }
+}
+	
+public class Scenario {
+
+	public static void main(String[] args) {
+		Product p = new Product("Laptop", 1000.0, "P123");
+
+        System.out.println("Name: " + p.getName());
+        System.out.println("Price: $" + p.getPrice());
+        System.out.println("Discounted Price (10%): $" + p.calculateDiscount(10));
+        
+        p.setPrice(950.0);
+        System.out.println("Updated Price: $" + p.getPrice());
+		
+
+	}
+
+}

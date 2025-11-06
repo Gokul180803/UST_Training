@@ -1,0 +1,21 @@
+class Calculator{
+	public static void add(int a, int b) {
+		System.out.println(a+b);
+	}
+	public static void add(double a, double b) {
+		System.out.println(a+b);
+	}
+	public static void add(int a, double b) {
+		System.out.println((double)a+b);
+}
+}
+public class CalculatorClass {
+
+	public static void main(String[] args) {
+		
+		Calculator.add(1,2);
+		Calculator.add(1432.44,223.433);
+		Calculator.add(1,22.343);
+	}
+
+}

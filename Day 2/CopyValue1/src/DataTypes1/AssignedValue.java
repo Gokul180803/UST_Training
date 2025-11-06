@@ -1,0 +1,21 @@
+package DataTypes1;
+class box{
+	public int size;
+}
+public class AssignedValue {
+	public static void changeReference(box box3) {
+		box3.size=500;
+		System.out.println(box3.size);
+	}
+public static void main(String[]args) {
+	box box1=new box();
+	box1.size=100;
+	box box2=box1;
+	box2.size=200;
+	System.out.println(box1.size);
+	System.out.println(box2.size);
+	System.out.println("After change reference");
+
+	changeReference(box1);
+}
+}

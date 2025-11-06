@@ -1,0 +1,58 @@
+import java.util.Scanner;
+public class StudentPerformanceAnalyzer {
+   public char calculateFinalGrade(int score, int attendancePercentage) {
+	   char grade;
+		if(score>=0&& score<=100 && attendancePercentage>=0&&attendancePercentage<=100) {
+			if(score>=90) {
+				grade= 'A';
+			}else if(score>=80){
+				grade= 'B';
+			}else if(score>=70){
+				grade= 'C';
+			}else if(score>=60){
+				grade= 'D';
+			}else {
+				grade= 'F';
+			}
+		}else {
+			return 'X';
+		}
+		if(attendancePercentage<=75 && grade!='F') {
+			grade =downgrade(grade);
+		}else if(attendancePercentage==100 && grade!='A') {
+			grade= upgrade(grade);
+		}
+			return grade;
+   }
+		private char downgrade(char grade) {
+	        switch (grade) {
+	            case 'A': return 'B';
+	            case 'B': return 'C';
+	            case 'C': return 'D';
+	            case 'D': return 'F';
+	            default: return grade;
+	        }
+	 
+   }
+		 private char upgrade(char grade) {
+		        switch (grade) {
+		            case 'B': return 'A';
+		            case 'C': return 'B';
+		            case 'D': return 'C';
+		            case 'F': return 'F'; 
+		            default: return grade;
+		        }
+		    }
+
+	public static void main(String[] args) {
+		
+		StudentPerformanceAnalyzer c=new StudentPerformanceAnalyzer();
+		Scanner sc =new Scanner(System.in);
+		System.out.print("Enter your Score : ");
+		int a =sc.nextInt();
+		System.out.print("Enter your attendancePercentage : ");
+		int b =sc.nextInt();
+System.out.println(c.calculateFinalGrade(a,b));
+	}
+
+}

@@ -1,0 +1,25 @@
+
+public class ScoreAnalysis {
+
+	public static void main(String[] args) {
+	int matchScores[]= {65, 42, 10, 88, 30, 5};
+	 int sum=0;
+	for(int Total:matchScores) {
+		sum+=Total;
+		
+	}
+	System.out.println(sum);
+	int greater=0;
+	for(int i=0;i<matchScores.length-1;i++) {
+		if(matchScores[i+1]>matchScores[i]) {
+			greater =i;
+		}
+	}
+	System.out.println(greater);
+	
+	
+	
+	
+	}
+
+}

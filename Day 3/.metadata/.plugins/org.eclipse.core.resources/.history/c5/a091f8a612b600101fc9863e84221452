@@ -1,0 +1,24 @@
+
+public class OperatorPlayground {
+
+	public static void main(String[] args) {
+		System.out.println("--- Arithmetic Operators ---\r\n"+ "");
+		int num1=20;
+		int num2=7;
+		System.out.println("num1 + num2 = "+(num1+num2));
+		System.out.println("num1 - num2 = "+(num1-num2));
+		System.out.println("num1 * num2 = "+(num1*num2));
+		System.out.println("num1 / num2 = "+(num1/num2));
+		System.out.println("num1 % num2 = "+(num1%num2));
+		
+		
+		System.out.println(" --- Assignment Operators ---\r\n"+"");
+		int x=15;
+		System.out.println(x+=5);
+		System.out.println(x-=5);
+		System.out.println(x*=5);
+		System.out.println(x/=5);
+		System.out.println(x%=5);
+	}
+
+}
