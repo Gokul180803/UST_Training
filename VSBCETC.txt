@@ -1,0 +1,151 @@
+Refactor a Java application by implementing SOLID principle
+
+
+Java
+Class Design
+Database Interactions
+Dependency Injection
+Refactoring
+Single Responsibility Principle
+System Design
+ This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is... 
+
+This question is a premium question
+upgrade to access
+What this question evaluates
+This question assesses the candidate's ability to refactor code by separating concerns into distinct classes, adhering to the Single Responsibility Principle. It evaluates the candidate's understanding of dependency injection, class design, and database interactions.
+
+Projects
+Medium
+45 min
+< 100
+66.67 %
+Analytics
+
+
+-----------------------------------------
+
+Developing Grocery Data Processing Utilities
+
+
+Java
+Core Java
+Data Conversion
+Filtering
+Function Overloading
+Product Operations
+Sorting
+ This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is... 
+
+This question is a premium question
+upgrade to access
+What this question evaluates
+This question assesses the candidate's ability to design and implement utility functions for processing grocery data efficiently. It evaluates the candidate's understanding of function overloading, data conversion, sorting, filtering, and product operations.
+
+Projects
+Medium
+45 min
+100+
+14.88 %
+Analytics
+
+-------------------------------------
+
+
+Implement CRUD using SpringBoot, JPA and MySQL for a food supply chain application
+
+
+Java
+Controller Endpoints
+Entity Design
+Repository Implementation
+Service Methods
+Spring Boot
+ This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is... 
+
+This question is a premium question
+upgrade to access
+What this question evaluates
+This question assesses the candidate's skills in developing a Spring Boot application for a food distribution company. It evaluates understanding of entity design, repository implementation, service methods, and controller endpoints.
+
+Projects
+Medium
+60 min
+< 100
+79.79 %
+Analytics
+
+------------------------------------------------
+
+Develop a Spring Boot REST API for managing Employee data - II
+
+
+Java
+Annotations
+Controller Development
+Model Implementation
+REST API
+Service Implementation
+Spring Boot
+Testing
+ This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is... 
+
+This question is a premium question
+upgrade to access
+What this question evaluates
+This question assesses the candidate's ability to develop a Spring Boot REST API for managing Employee data. It evaluates knowledge of model implementation, service implementation, controller development, annotations, and testing in a Spring Boot application.
+
+Projects
+Medium
+40 min
+Analytics
+
+--------------------------------------
+
+
+Event Management System implement using Spring Security
+
+
+Java
+Entity Relationships
+RESTful Endpoints
+Role-Based Access Control
+Spring Boot
+Spring Security
+ This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is... 
+
+This question is a premium question
+upgrade to access
+What this question evaluates
+This question assesses the candidate's skills in developing a Spring Boot-based web application for an Event Management System. It evaluates understanding of user authentication, authorization, CRUD operations, RESTful endpoints, and entity relationships.
+
+Projects
+Medium
+30 min
+Analytics
+
+-------------------------------------------------------
+
+Spring Boot-based web application for a simplified Library Management System implement using Spring Security
+
+
+Java
+Entity Design
+RESTful Endpoints
+Role-Based Access Control
+Security Implementation
+Spring Boot
+ This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is a locked question. This is... 
+
+This question is a premium question
+upgrade to access
+What this question evaluates
+This question assesses the candidate's ability to develop a Spring Boot-based web application for a Library Management System with basic Spring Security features. It evaluates the candidate's understanding of RESTful endpoints, role-based access control, entity design, security implementation using JWT tokens and BCryptPasswordEncoder, and error handling.
+
+Projects
+Medium
+30 min
+< 100
+0 %
+Analytics
+-------------------------------------------------
